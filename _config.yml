@@ -3,12 +3,12 @@ baseurl: /timeline-jekyll-theme
 
 # Site Settings
 title: Timeline
-description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
+description: "If you want to know a little bit more about me, see below"
 keywords: "jekyll, theme"
 google-tracking-id:
 
 # Career Settings
 # Default career thumbnail image.
-career-img: "img/timeline/default.jpg"
+career-img: "img/timeline/milla.jpg"
 
 exclude: ["Rakefile", "LICENSE", "readme.markdown"]
