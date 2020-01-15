@@ -11,7 +11,7 @@
 
   {% for page in site.pages %}
     {% if page.section-type == "default" %}
-      <!-- {{ page.title }} Section  col-lg-offset-4--> 
+      <!-- {{ page.title }} Section  col-lg-offset-4-->
       <section id="{{ page.title }}" class="container content-section text-center">
           <div class="row">
               <div class="col-lg-12 ">
@@ -58,8 +58,8 @@
                       </div>
                       <div class="timeline-panel">
                           <div class="timeline-heading">
-                              <h4>{{ post.title }}</h4>
-                              <h4 class="subheading">{{ post.subtitle }}</h4>
+                              <h3>{{ post.title }}</h3>
+                              <h3 class="subheading">{{ post.subtitle }}</h3>
                           </div>
                           <div class="timeline-body">
                               <p class="text-muted">{{ post.content }}</p>
